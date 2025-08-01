@@ -8,8 +8,8 @@ Desenvolvedor Back-end com background em Contabilidade, especializado em automaÃ
 
 ### ðŸ”— Conecte-se Comigo
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white )](https://www.linkedin.com/in/SEU-PERFIL-DO-LINKEDIN-AQUI/ )
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white )](https://github.com/alexvarelagomes )
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white )](https://www.linkedin.com/in/alex-varela-ba8485378/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white )](https://github.com/alexvarelagomes)
 
 ---
 
