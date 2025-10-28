@@ -71,6 +71,7 @@ Desenvolvedor Back-end com background em Contabilidade, especializado em automa√
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white )
 ![n8n](https://img.shields.io/badge/n8n-FF4747?style=for-the-badge&logo=n8n&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white )
+![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-5D3A9B?style=for-the-badge&logo=python&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white )
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white )
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
