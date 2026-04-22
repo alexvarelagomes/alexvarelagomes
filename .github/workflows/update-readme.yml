@@ -1,4 +1,4 @@
-name: Update README Metrics
+name: Update README Metrics.
 
 on:
   schedule:
