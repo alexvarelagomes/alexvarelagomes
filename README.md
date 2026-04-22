@@ -89,7 +89,7 @@ Desenvolvedor Back-end com background em Contabilidade, especializado em automa�
 
 ### 📈 Estatísticas do Repositório:
 
-- **Commits feitos**: <!-- Commits -->
-- **Pull Requests**: <!-- Pull Requests -->
+- **Commits feitos**: Commits feitos: null
+- **Pull Requests**: Pull Requests: 0
 - **Contribuições semanais**: <!-- Contribuições semanais -->
-- **Issues abertas**: <!-- Issues abertas -->
+- **Issues abertas**: Issues abertas: 0
