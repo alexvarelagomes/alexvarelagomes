@@ -86,10 +86,3 @@ Desenvolvedor Back-end com background em Contabilidade, especializado em automa�
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white )
 
 ---
-
-### 📈 Estatísticas do Repositório:
-
-- **Commits feitos**: Commits feitos: null
-- **Pull Requests**: Pull Requests: 0
-- **Contribuições semanais**: <!-- Contribuições semanais -->
-- **Issues abertas**: Issues abertas: 
