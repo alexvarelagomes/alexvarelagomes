@@ -89,7 +89,7 @@ Desenvolvedor Back-end com background em Contabilidade, especializado em automa�
 
 ### 📈 Estatísticas do Repositório:
 
-- **Commits feitos**: ![Commits](https://img.shields.io/github/commit-activity/m/username/repo)
-- **Pull Requests**: ![Pull Requests](https://img.shields.io/github/issues-pr/username/repo)
-- **Contribuições semanais**: ![Contribuições semanais](https://img.shields.io/github/commit-activity/w/username/repo)
-- **Issues abertas**: ![Issues](https://img.shields.io/github/issues/username/repo)
+- **Commits feitos**: <!-- Commits -->
+- **Pull Requests**: <!-- Pull Requests -->
+- **Contribuições semanais**: <!-- Contribuições semanais -->
+- **Issues abertas**: <!-- Issues abertas -->
