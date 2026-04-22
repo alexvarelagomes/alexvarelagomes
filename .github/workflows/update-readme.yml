@@ -43,6 +43,9 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+          
+          # Use o token de acesso pessoal para autenticação
+          git remote set-url origin https://x-access-token:${{ secrets.SECRET_TOKEN }}@github.com/${{ github.repository }}
           git add README.md
           git commit -m "Update README with new commit stats"
           git push
