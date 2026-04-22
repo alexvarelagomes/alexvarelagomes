@@ -16,20 +16,24 @@ jobs:
 
       - name: Get GitHub statistics (commits, PRs, issues)
         run: |
+          # Obter a atividade de commits semanais
           curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            "https://api.github.com/repos/alexvarelagomes/alexvarelagomes/stats/commit_activity" \
+            "https://api.github.com/repos/${{ github.repository }}/stats/commit_activity" \
             > commit_stats.json
 
+          # Obter pull requests abertos
           curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            "https://api.github.com/repos/alexvarelagomes/alexvarelagomes/pulls?state=all" \
+            "https://api.github.com/repos/${{ github.repository }}/pulls?state=all" \
             > pull_stats.json
 
+          # Obter issues abertas
           curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            "https://api.github.com/repos/alexvarelagomes/alexvarelagomes/issues?state=open" \
+            "https://api.github.com/repos/${{ github.repository }}/issues?state=open" \
             > issue_stats.json
 
       - name: Update README.md with statistics
         run: |
+          # Extrair dados de commits, PRs e Issues
           commits=$(jq '[.[] | .total] | add' commit_stats.json)
           prs=$(jq 'length' pull_stats.json)
           issues=$(jq 'length' issue_stats.json)
