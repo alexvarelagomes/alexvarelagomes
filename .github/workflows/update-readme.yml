@@ -31,6 +31,12 @@ jobs:
             "https://api.github.com/repos/${{ github.repository }}/issues?state=open" \
             > issue_stats.json
 
+      - name: Check metrics values
+        run: |
+          echo "Commits: $commits"
+          echo "Pull Requests: $prs"
+          echo "Issues: $issues"
+
       - name: Update README.md with statistics
         run: |
           # Extrair dados de commits, PRs e Issues
@@ -49,7 +55,7 @@ jobs:
           git config --global user.email "actions@github.com"
           
           # Usar o GITHUB_TOKEN para autenticação corretamente
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git remote set-url origin https://github.com/${{ github.repository }}
           git add README.md
           git commit -m "Update README with new commit stats"
           git push
