@@ -1,48 +1,48 @@
-# Oi, sou o Alex ! 👋
+name: Update README Metrics
 
-### Desenvolvedor Back-end | Automação de Processos | Business & Tech
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Executa uma vez por dia, de madrugada
+  push:
+    branches:
+      - main  # Roda quando há um push no branch principal
 
-Desenvolvedor Back-end com background em Contabilidade, especializado em automação de processos e integração de sistemas (SAP, APIs). Transformo regras de negócio em código limpo e escalável.
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
----
+      - name: Get GitHub statistics (commits, PRs, issues)
+        run: |
+          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/alexvarelagomes/alexvarelagomes/stats/commit_activity" \
+            > commit_stats.json
 
-### 🔗 Conecte-se comigo:
+          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/alexvarelagomes/alexvarelagomes/pulls?state=all" \
+            > pull_stats.json
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white )](https://www.linkedin.com/in/alex-varela-ba8485378/)
-[![Outlook](https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:alex-fjp@hotmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5584994901152)
+          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/alexvarelagomes/alexvarelagomes/issues?state=open" \
+            > issue_stats.json
 
----
+      - name: Update README.md with statistics
+        run: |
+          commits=$(jq '[.[] | .total] | add' commit_stats.json)
+          prs=$(jq 'length' pull_stats.json)
+          issues=$(jq 'length' issue_stats.json)
 
-### 👨🏻‍💻 Sobre Mim
+          # Atualiza o README com as novas métricas
+          sed -i "s|<!-- Commits -->|Commits feitos: $commits|g" README.md
+          sed -i "s|<!-- Pull Requests -->|Pull Requests: $prs|g" README.md
+          sed -i "s|<!-- Issues abertas -->|Issues abertas: $issues|g" README.md
 
-💻 Desenvolvedor Back-end com formação em Contabilidade, unindo conhecimento técnico, visão de negócio e tecnologia para construir soluções através de aplicações e automações.
-
-🔄 Ênfase em automação de processos manuais, integração com sistemas como SAP, manipulação de planilhas e tratamento de dados.
-
-🧠 Capacidade de traduzir regras de negócio complexas em código limpo e funcional, com foco em eficiência e escalabilidade.
-
-🛠️ Experiência com Python, Pandas, Docker, APIs REST, web scraping com Playwright, manipulação de arquivos, e uso de Streamlit para interfaces práticas.
-
-📊 Background contábil que contribui para melhor entendimento de sistemas financeiros, compliance e rotinas fiscais.
-
----
-
-### 🛠️ Stack Tecnológico:
-
-![Python](https://img.shields.io/badge/Python-FFB300?style=for-the-badge&logo=python&logoColor=white )
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Polars](https://img.shields.io/badge/Polars-00B5E2?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white )
-![FastHTML](https://img.shields.io/badge/FastHTML-009688?style=for-the-badge&logo=html5&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white )
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white )
-![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-5D3A9B?style=for-the-badge&logo=python&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white )
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white )
-![Coolify](https://img.shields.io/badge/Coolify-8A2BE2?style=for-the-badge&logo=docker&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-FF4747?style=for-the-badge&logo=n8n&logoColor=white)
-![PyInstaller](https://img.shields.io/badge/PyInstaller-4B8B3B?style=for-the-badge&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white )
-![SQLite](https://img.shields.io/badge/sqlite-%230740
+      - name: Commit and push updated README.md
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update README with new commit stats"
+          git push
