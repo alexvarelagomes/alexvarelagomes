@@ -49,8 +49,7 @@ Desenvolvedor Back-end com background em Contabilidade, especializado em automa�
 
 
 
-🛠️ Experiência com Python, Pandas, Docker, APIs REST, web scraping com Playwright, manipulação de arquivos, e uso de Streamlit para interfaces práticas.
-
+🛠️ Experiência com Python, Pandas; Polars; Docker para conteinizar aplicações; APIs REST(FastAPI), N8N para automatizar fluxo de trabalho; web scraping com Playwright e PyautoGUI, manipulação de arquivos, e uso de Streamlit e FastHTML para interfaces práticas.
   
 
 
@@ -85,3 +84,12 @@ Desenvolvedor Back-end com background em Contabilidade, especializado em automa�
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white )
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white )
+
+---
+
+### 📈 Estatísticas do Repositório:
+
+- **Commits feitos**: ![Commits](https://img.shields.io/github/commit-activity/m/username/repo)
+- **Pull Requests**: ![Pull Requests](https://img.shields.io/github/issues-pr/username/repo)
+- **Contribuições semanais**: ![Contribuições semanais](https://img.shields.io/github/commit-activity/w/username/repo)
+- **Issues abertas**: ![Issues](https://img.shields.io/github/issues/username/repo)
