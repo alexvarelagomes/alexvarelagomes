@@ -56,6 +56,6 @@ jobs:
           
           # Usar o GITHUB_TOKEN para autenticação corretamente
           git remote set-url origin https://github.com/${{ github.repository }}
-          git add README.md
+          git add README.md  # Certifique-se de adicionar apenas o README.md
           git commit -m "Update README with new commit stats"
           git push
