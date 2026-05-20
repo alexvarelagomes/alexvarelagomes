@@ -1,70 +1,30 @@
-# Oi, sou o Alex ! 👋
+# Oi, sou o Alex! 👋
 
+### Desenvolvedor Back-end | Automação de Processos | Dados | APIs & Web Scraping
 
-### Desenvolvedor Back-end | Automação de Processos | Business & Tech
+Desenvolvedor Back-end com formação em Contabilidade, unindo conhecimento técnico, visão de negócio e tecnologia para desenvolver APIs, integrar sistemas financeiros, extrair/manipular dados e transformar rotinas operacionais manuais em automações escaláveis.
 
-
-Desenvolvedor Back-end com background em Contabilidade, especializado em automação de processos e integração de sistemas (SAP, APIs). Transformo regras de negócio em código limpo e escalável.
-
-
+Atualmente cursando Análise e Desenvolvimento de Sistemas.
 
 ---
 
+### Conecte-se comigo:
 
-
-### 🔗 Conecte-se comigo:
-
-
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white )](https://www.linkedin.com/in/alex-varela-ba8485378/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-varela-ba8485378/)
 [![Outlook](https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:alex-fjp@hotmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5584994901152)
 
+---
 
+### Projetos em Destaque:
 
+**[XML for DANFE](https://github.com/alexvarelagomes/xml-for-danfe)**: Uma aplicação conteinerizada que automatiza a conversão e extração inteligente de dados fiscais (NF-e) para PDF utilizando a stack Python, lxml e Streamlit. Desenvolvido para eliminar gargalos manuais de departamentos contábeis. *(Hospedagem com esteira CI/CD via GitHub Actions).
+
+**[Daily Currency Bot](https://github.com/alexvarelagomes/daily-currency-bot)**: Pipeline automatizado para notificar cotação de moedas globais via Telegram.
 
 ---
 
-
-
-### 👨🏻‍💻 Sobre Mim
-
-
-
-💻 Desenvolvedor Back-end com formação em Contabilidade, unindo conhecimento técnico, visão de negócio e tecnologia para construir soluções através de aplicações e automações. 
-
-  
-
-
-
-🔄 Ênfase em automação de processos manuais, integração com sistemas como SAP, manipulação de planilhas e tratamento de dados.
-
-  
-
-
-
-🧠 Capacidade de traduzir regras de negócio complexas em código limpo e funcional, com foco em eficiência e escalabilidade.
-
-  
-
-
-
-🛠️ Experiência com Python, Pandas; Polars; Docker para conteinizar aplicações; APIs REST(FastAPI), N8N para automatizar fluxo de trabalho; web scraping com Playwright e PyautoGUI, manipulação de arquivos, e uso de Streamlit e FastHTML para interfaces práticas.
-  
-
-
-
-📊 Background contábil que contribui para melhor entendimento de sistemas financeiros, compliance e rotinas fiscais.
-
-
-
----
-
-
-
-### 🛠️ Stack Tecnológico:
-
-
+### Stack Tecnológico:
 
 ![Python](https://img.shields.io/badge/Python-FFB300?style=for-the-badge&logo=python&logoColor=white )
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -83,3 +43,4 @@ Desenvolvedor Back-end com background em Contabilidade, especializado em automa�
 ![Coolify](https://img.shields.io/badge/Coolify-8A2BE2?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white )
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white )
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
