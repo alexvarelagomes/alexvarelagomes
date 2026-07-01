@@ -22,6 +22,8 @@ Atualmente cursando Análise e Desenvolvimento de Sistemas.
 
 **[Daily Currency Bot](https://github.com/alexvarelagomes/daily-currency-bot)**: Pipeline automatizado para notificar cotação de moedas globais via Telegram.
 
+**[Pipeline ETL Automotivo](https://github.com/alexvarelagomes/technicaltest-bdauto)**: Pipeline ETL que realiza coleta massiva antibot (Selenium), transformação de dados (Pandas) e carga estruturada (SQLite) de um catálogo de peças automotivas.
+
 ---
 
 ### Stack Tecnológico:
