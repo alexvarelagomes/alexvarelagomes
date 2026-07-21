@@ -1,18 +1,21 @@
 ## 👋 Sobre mim
 
-### Desenvolvedor Back-end | Automação de Processos | Dados | APIs & Web Scraping
+### Desenvolvedor Back-end | Automação de Processos | Integração de Sistemas | Dados 
 
-Sou formado em **Ciências Contábeis** e atualmente curso **Análise e Desenvolvimento de Sistemas 2/5**. Busco desenvolver soluções que unem tecnologia e negócio, atuando na automação de processos, integração de sistemas, desenvolvimento de aplicações e análise de dados.
+Sou formado em Ciências Contábeis e atualmente curso Análise e Desenvolvimento de Sistemas.  
+Busco desenvolver soluções que unem tecnologia e negócio, atuando na automação de processos, integração de sistemas, desenvolvimento de aplicações e análise de dados.
 
-**💻 Stack Tecnológicos:**
+Apaixonado por tecnologia, estou em constante aprendizado, buscando conhecer novas ferramentas, aprimorar minhas habilidades e transformar esse conhecimento em soluções práticas e eficientes.
 
-* **Linguagens & Dados:** C# com .NET, TypeScript, Python, SQL, Pandas, Polars e Entity Framework Core.
-* **Backend & APIs:** ASP.NET Core, FastAPI, APIs REST, Swagger e manipulação de arquivos (I/O).
-* **Front-end:** React, Streamlit e FastHTML.
-* **Automação:** Playwright, Selenium, PyAutoGUI, n8n e desenvolvimento de bots.
-* **DevOps:** Docker, Git, GitHub, GitHub Actions (CI/CD), Coolify e GitHub Pages.
+---
 
-Sempre em busca de novos desafios, aprendizado contínuo e boas práticas de desenvolvimento para criar soluções eficientes e escaláveis.
+💻 **Stack Tecnológica:**
+
+- **Linguagens & Dados:** Python, C# e .NET, TypeScript, SQL, Pandas, Polars e Entity Framework Core.
+- **Backend & APIs:** ASP.NET Core, FastAPI, APIs REST, Swagger e manipulação de arquivos (I/O).
+- **Front-end:** React, Streamlit e FastHTML.
+- **Automação:** Playwright, Selenium, PyAutoGUI, n8n e desenvolvimento de bots.
+- **DevOps:** Docker, Git, GitHub, GitHub Actions (CI/CD) e Coolify.
 
 ---
 
