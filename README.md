@@ -6,7 +6,7 @@ Sou formado em **Ciências Contábeis** e atualmente curso **Análise e Desenvol
 
 **💻 Stack Tecnológicos:**
 
-* **Linguagens & Dados:** C#, .NET, TypeScript, Python, SQL, Pandas, Polars e Entity Framework Core.
+* **Linguagens & Dados:** C# com .NET, TypeScript, Python, SQL, Pandas, Polars e Entity Framework Core.
 * **Backend & APIs:** ASP.NET Core, FastAPI, APIs REST, Swagger e manipulação de arquivos (I/O).
 * **Front-end:** React, Streamlit e FastHTML.
 * **Automação:** Playwright, Selenium, PyAutoGUI, n8n e desenvolvimento de bots.
