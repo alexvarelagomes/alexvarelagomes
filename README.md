@@ -14,7 +14,7 @@ Apaixonado por tecnologia, estou em constante aprendizado, buscando conhecer nov
 - **Linguagens & Dados:** Python, C# e .NET, TypeScript, SQL, Pandas, Polars e Entity Framework Core.
 - **Backend & APIs:** ASP.NET Core, FastAPI, APIs REST, Swagger e manipulação de arquivos (I/O).
 - **Front-end:** React, Streamlit e FastHTML.
-- **Automação:** Playwright, Selenium, PyAutoGUI, n8n e desenvolvimento de bots.
+- **Automação:** Playwright, Selenium, PyAutoGUI, n8n para automatizar fluxos de trabalho e desenvolvimento de bots.
 - **DevOps:** Docker, Git, GitHub, GitHub Actions (CI/CD) e Coolify.
 
 ---
