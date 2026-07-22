@@ -21,10 +21,12 @@ Apaixonado por tecnologia, estou em constante aprendizado, buscando conhecer nov
 
 ### Projetos em Destaque:
 
-**[XML for DANFE](https://github.com/alexvarelagomes/xml-for-danfe)**: Uma aplicação conteinerizada que automatiza a conversão e extração inteligente de dados fiscais (NF-e) para PDF utilizando a stack Python, lxml e Streamlit. Desenvolvido para eliminar gargalos manuais de departamentos contábeis. *(Hospedagem com esteira CI/CD via GitHub Actions).
+**[Sistema de Controle de Gastos](https://github.com/alexvarelagomes/technicaltest-controlegastos)**: Sistema Full-Stack completo para o gerenciamento de finanças pessoais, desenvolvido como resolução de um desafio técnico. O projeto permite o cadastro de pessoas e o controle de suas respectivas receitas e despesas. O foco principal foi construir uma arquitetura limpa e integrada, unindo a robustez e segurança de uma API em C#/.NET com uma interface em React com TypeScript.
+
+**[Pipeline ETL Automotivo](https://github.com/alexvarelagomes/technicaltest-bdauto)**: Pipeline ETL que realiza coleta massiva antibot (Selenium), transformação de dados (Pandas) e carga estruturada (SQLite) de um catálogo de peças automotivas.
 
 **[Daily Currency Bot](https://github.com/alexvarelagomes/daily-currency-bot)**: Pipeline automatizado para notificar cotação de moedas globais via Telegram.
 
-**[Pipeline ETL Automotivo](https://github.com/alexvarelagomes/technicaltest-bdauto)**: Pipeline ETL que realiza coleta massiva antibot (Selenium), transformação de dados (Pandas) e carga estruturada (SQLite) de um catálogo de peças automotivas.
+**[XML for DANFE](https://github.com/alexvarelagomes/xml-for-danfe)**: Uma aplicação conteinerizada que automatiza a conversão e extração inteligente de dados fiscais (NF-e) para PDF utilizando a stack Python, lxml e Streamlit. Desenvolvido para eliminar gargalos manuais de departamentos contábeis. *(Hospedagem com esteira CI/CD via GitHub Actions).
 
 ---
